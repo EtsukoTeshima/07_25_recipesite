@@ -23,9 +23,7 @@ $stmt->bindValue(':id', $id, PDO::PARAM_INT);
 $status = $stmt->execute();
 
 
-
-
-// データ登録処理後
+// データ登録処理後です
 if ($status == false) {
   // SQL実行に失敗した場合はここでエラーを出力し，以降の処理を中止する
   $error = $stmt->errorInfo();
@@ -37,4 +35,3 @@ if ($status == false) {
   exit();
 
 }
-  
