@@ -1,0 +1,22 @@
+@charset "utf-8";
+// @import "base";
+.PC_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #dd5;
+    padding: 10px;
+    .logo {
+        background: #dd5;
+        color: #dd5;    
+    }
+    ul{
+        background: #dd5;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
